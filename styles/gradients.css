@@ -1,0 +1,46 @@
+.blue_gradient2{
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#E5FCFF", GradientType=1 );}
+
+.blue_gradient{
+    background: hsla(206, 64%, 98%, 1);
+
+    background: linear-gradient(90deg, hsla(206, 64%, 98%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(206, 64%, 98%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(206, 64%, 98%, 1) 0%, hsla(187, 100%, 95%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6FAFD", endColorstr="#E5FCFF", GradientType=1 );
+}
+
+.blue_gradient3{
+    background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(225deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 50%, 95%, 1) 100%);
+
+background: -moz-linear-gradient(225deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 50%, 95%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 50%, 95%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#EAF7F8", GradientType=1 );
+}
+
+.blue_gradient4{
+    background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(315deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 41%, 93%, 1) 100%);
+
+background: -moz-linear-gradient(315deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 41%, 93%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(0, 0%, 100%, 1) 0%, hsla(184, 41%, 93%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#E7F4F5", GradientType=1 );
+}

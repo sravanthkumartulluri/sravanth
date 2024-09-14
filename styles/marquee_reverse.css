@@ -1,0 +1,25 @@
+@keyframes marquee_reverse {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes marquee_reverse2 {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee_reverse {
+    animation: marquee 25s linear infinite;
+  }
+  
+  .animate-marquee_reverse {
+    animation: marquee2 25s linear infinite;
+  }

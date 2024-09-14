@@ -1,0 +1,14 @@
+.navbar_border_bg {
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; */
+    /* background-color: #86C232; */
+
+    /* Adjust the background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* // Initial shadow */
+  }
+  
+ 

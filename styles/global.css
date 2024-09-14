@@ -1,0 +1,97 @@
+*{
+  
+  scroll-behavior:smooth;
+  transition-duration: 20ms;
+  --accent-green: #aaff02
+  --ripplecolor: #86C232  
+  /* buttons */
+  --pacific-cyan: #00A5CF
+  --yellow-green: #86C232
+  
+  /* black background */
+  /* white background */
+
+}
+
+body{
+  background-color: rgb(234, 234, 234);
+}
+
+.cyan{
+  color:#00FFFF
+}
+.cyan-bg{
+  background-color:#00FFFF
+}
+
+.pacific-cyan{
+  color:#00a5cf
+}
+.pacific-cyan-bg{
+  background-color:#00a5cf
+}
+
+.lawn_green{
+  color:#8aec00
+}
+.lawn_green-bg{
+  background-color:#8aec00
+}
+
+.yellow-green{
+  color:#86C232
+}
+.yellow-green-bg{
+  background-color:#86C232
+}
+
+#circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 153, 0);
+  pointer-events: none; /* Prevent the circle from blocking mouse events */
+  display: none; /* Hide the circle initially */
+}
+
+.cool-blues-gradient {
+  background-image: linear-gradient(to right, #3490dc, #34dcdc);
+}
+
+.warm-oranges-gradient {
+  background-image: linear-gradient(to right, #f7931a, #f25f1a);
+}
+
+.deep-purples-gradient {
+  background-image: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.pastel-greens-gradient {
+  background-image: linear-gradient(to right, #84dccb, #c3f0ed);
+}
+
+.gentle-grays-gradient {
+  background-image: linear-gradient(to right, #d3d3d3, #e6e6e6);
+}
+
+/* fonts --------------------------------- */
+body {
+  font-family: 'Open Sans';
+}
+
+.h1, h1, h2{
+  font-family: 'Poppins';
+}
+
+button{
+  font-family: 'Montserrat';
+}
+
+.h3, h3 {
+  font-family: 'Inter';
+}
+
+p, .paragraph {
+  font-family: 'Open Sans';
+} 

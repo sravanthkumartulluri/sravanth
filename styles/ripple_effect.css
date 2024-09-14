@@ -1,0 +1,15 @@
+.ripple {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  position: absolute; /* Not fixed */
+  border-radius: 50%;
+  border: 1px solid #86C232;
+}
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(10); /* Increase scale for a larger ripple */
+    opacity: 0.01;
+  }
+}
